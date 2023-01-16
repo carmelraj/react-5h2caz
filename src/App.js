@@ -1,11 +1,8 @@
 import React from "react";
 import "./style.css";
-
+import GetApi from './Components/API/getAPI'
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      dfdfd
-    </div>
+   <GetApi />
   );
 }
