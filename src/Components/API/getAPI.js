@@ -7,7 +7,16 @@ class GetApi extends Component {
       posts=[]
     }
   }
-  
+
+  componentDidMount(){
+    axios.get('https://jsonplaceholder.typicode.com/posts')
+    .then(res =>{
+      console.log(res);
+    })
+    .catch(error =>{
+      console.log(error);
+    })
+  }
   render() {
     return(<>
       <h1>Get</h1>
