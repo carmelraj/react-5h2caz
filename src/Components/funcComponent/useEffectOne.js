@@ -1,9 +1,9 @@
 import React,{useState} from 'react';
-const useEffectOne = () =>{
+const UseEffectOne = () =>{
  
  
   return(<><h2>Hooks Counter Two</h2>
     
   </>);
 }
-export default useEffectOne
+export default UseEffectOne
