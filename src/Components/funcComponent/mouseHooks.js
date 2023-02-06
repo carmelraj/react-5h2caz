@@ -11,7 +11,7 @@ const MouseHooks = () => {
   useEffect(() => {
     console.log('use effect');
     window.addEventListener('mouseover', logMouseEvent);
-  });
+  },[]);
   return (
     <>
       <h2>Mouse Hooks</h2>
